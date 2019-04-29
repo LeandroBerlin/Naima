@@ -20,10 +20,11 @@ Empower trust by showing donors/charity investors what impact their money makes 
  ➡️ Tracked results  
 
 ## How
-“Blockchain technology presents amazing solutions to common problems nonprofits may face. Because a blockchain is a distributed and immutable ledger, everyone who accesses the data technically owns a copy of it, and said data cannot ever be changed once it is appended to the chain. Thus, by its very nature, information on the blockchain is entirely transparent, and unable to be manipulated by an external force or even the institution itself. Nonprofit institutions can leverage this transparent infrastructure to engage donors and increase overall trust in their organization. Particularly for smaller nonprofits without a ubiquitous brand name, a public blockchain-based ledger would ensure accountability and help the organization garner trust directly from the distribution of assets.”
+“Blockchain technology presents amazing solutions to common problems nonprofits may face. Because a blockchain is a distributed and immutable ledger, everyone who accesses the data technically owns a copy of it, and said data cannot ever be changed once it is appended to the chain. Thus, by its very nature, information on the blockchain is entirely transparent, and unable to be manipulated by an external force or even the institution itself. Nonprofit institutions can leverage this transparent infrastructure to engage donors and increase overall trust in their organization. Particularly for smaller nonprofits without a ubiquitous brand name, a public blockchain-based ledger would ensure accountability and help the organization garner trust directly from the distribution of assets.”  
+
 source: https://insights.theberkeleygroup.org/blockchain-for-nonprofits-decentralized-social-impact-4d1b38f09440
 
-IBM is using blockchain to improve transparency in supply chains for internal stakeholders (Hyperledger project from LinuxFoundation), start-ups such as Provenance (https://www.provenance.org/) and Everledger (https://www.everledger.io) are using blockchain to provide supply chain transparency directly to consumers.
+IBM is using blockchain to improve transparency in supply chains for internal stakeholders (Hyperledger project from LinuxFoundation), start-ups such as [Provenance](https://www.provenance.org) and [Everledger](https://www.everledger.io) are using blockchain to provide supply-chain transparency directly to consumers.
 
 ## Resources:
 https://www.forbes.com/sites/ginaclarke/2019/02/14/how-blockchain-crowdfunding-could-soon-kill-off-the-ico/
