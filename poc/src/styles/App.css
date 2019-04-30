@@ -162,10 +162,9 @@ button[disabled] {
   cursor: not-allowed;
 }
 
-.projects {
-  
+.projects {  
   text-align: left;
-  max-width: 50%;
+  /* max-width: 50%; */
   margin: 0 auto;
   font-size: 1em;
 }
