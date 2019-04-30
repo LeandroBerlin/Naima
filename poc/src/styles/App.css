@@ -100,7 +100,7 @@ input {
   outline: none;
   margin-bottom: 2em;
   padding: 0.3em;
-  background-color: darkgrey;
+  background-color: rgba(230, 231, 237, 0.692);
   color: white;
   border: none;
   border-color: transparent;
@@ -109,6 +109,7 @@ input {
   box-shadow: 11px 12px 8px -6px rgba(0, 0, 0, 0.19);
   padding: 1em;
   font-style: italic;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 button {
@@ -162,9 +163,11 @@ button[disabled] {
 }
 
 .projects {
+  
   text-align: left;
   max-width: 50%;
   margin: 0 auto;
+  font-size: 1em;
 }
 
 label {
