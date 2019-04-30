@@ -80,6 +80,7 @@ body {
 .naima-h1 {
   color: white;
   font-weight: 600;
+  /* font-size: 1.5em; */
 }
 
 @keyframes App-logo-spin {
@@ -175,7 +176,7 @@ label {
 
 .credit {
   bottom: 1em;
-  font-size: 0.8em;
+  font-size: 1.2em;
   color: white;
 }
 
