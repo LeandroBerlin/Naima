@@ -1,6 +1,6 @@
 :root {
-  --main-color: #056180;
-  --secondary-color: #008cba;
+  --main-color: rgba(190, 192, 207, 0.89);
+  --secondary-color: rgba(148, 152, 169, 0.89);
 }
 
 body {
@@ -16,10 +16,10 @@ body {
   letter-spacing: 0.1em;
 }
 
-.App-logo {
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 10vmin;
-}
+} */
 
 .App-header {
   display: flex;
@@ -41,16 +41,20 @@ body {
   overflow: hidden;
   /* margin-bottom: 0.5em; */
   padding: 1.5em;
+  display: flex;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 0.3em 1em;
+  /* padding: 0.3em 1em; */
+  padding-left: 1em;
+  padding-right: 1em;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 27px;
+  display: flex;
+  align-items: baseline;
 }
 
 /* Change the color of links on hover */
@@ -66,7 +70,14 @@ body {
 
 /* Right-aligned section inside the top navigation */
 .topnav-right {
-  float: right;
+  margin-left: auto;
+  display: flex;
+  padding: 1.5em;
+}
+
+.naima-h1 {
+  color: white;
+  font-weight: 600;
 }
 
 @keyframes App-logo-spin {
