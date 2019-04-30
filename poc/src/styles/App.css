@@ -67,7 +67,7 @@ body {
 .topnav a.active {
   background-color: var(--secondary-color);
   color: white;
-  border-radius: 3px
+  border-radius: 3px;
 }
 
 /* Right-aligned section inside the top navigation */
@@ -131,8 +131,16 @@ p {
 }
 
 a {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+ul {
+  list-style: none;
 }
 
 .form {
@@ -159,8 +167,10 @@ label {
   width: auto;
 }
 .tools li {
-  text-align: left;
+  text-align: center;
   font-size: 0.8em;
+  padding: 0.5em;
+  font-size: 1.2em;
 }
 
 .credit {
