@@ -54,7 +54,7 @@ class Add extends Component {
               <p>
                 <a
                   href={
-                    `https://test.bigchaindb.com/api/v1/transactions/` +
+                    `http://testnet.naima.io:9984/api/v1/transactions/` +
                     this.state.hash.id
                   }
                   target="_blank"
@@ -66,57 +66,57 @@ class Add extends Component {
               </p>
             </div>
           ) : (
-            <div className="form">
-              <p>Fill the form to create your donation</p>
+              <div className="form">
+                <p>Fill the form to create your donation</p>
 
-              <p>
-                <strong>Select a project to support</strong>
-              </p>
+                <p>
+                  <strong>Select a project to support</strong>
+                </p>
 
-              <div onChange={this.updateProject} className="projects">
-                <div>
-                  <input type="radio" name="project" value="A Good Cause" />
-                  <label htmlFor="A Good Cause">A Good Cause</label>
+                <div onChange={this.updateProject} className="projects">
+                  <div>
+                    <input type="radio" name="project" value="A Good Cause" />
+                    <label htmlFor="A Good Cause">A Good Cause</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" name="project" value="Save the World" />
+                    <label htmlFor="Save the World">Save the World</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" name="project" value="Save the Oceans" />
+                    <label htmlFor="Save the Oceans">Save the Oceans</label>
+                  </div>
                 </div>
-
+                <p>
+                  <strong>Select amount</strong>
+                </p>
                 <div>
-                  <input type="radio" name="project" value="Save the World" />
-                  <label htmlFor="Save the World">Save the World</label>
-                </div>
-
-                <div>
-                  <input type="radio" name="project" value="Save the Oceans" />
-                  <label htmlFor="Save the Oceans">Save the Oceans</label>
-                </div>
+                  <input
+                    type="number"
+                    name="amount"
+                    value={this.state.amount}
+                    onChange={this.updateAmount}
+                  />
+                  €
               </div>
-              <p>
-                <strong>Select amount</strong>
-              </p>
-              <div>
-                <input
-                  type="number"
-                  name="amount"
-                  value={this.state.amount}
-                  onChange={this.updateAmount}
+                <textarea
+                  placeholder="Add a message"
+                  onChange={this.updateMessage}
+                  value={this.state.message}
+                  cols="50"
+                  rows="5"
                 />
-                €
-              </div>
-              <textarea
-                placeholder="Add a message"
-                onChange={this.updateMessage}
-                value={this.state.message}
-                cols="50"
-                rows="5"
-              />
 
-              <button
-                onClick={() => this.sendTransaction()}
-                disabled={!this.state.message}
-              >
-                Create transaction
+                <button
+                  onClick={() => this.sendTransaction()}
+                  disabled={!this.state.message}
+                >
+                  Create transaction
               </button>
-            </div>
-          )}
+              </div>
+            )}
         </main>
         <Credit />
       </div>

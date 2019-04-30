@@ -77,7 +77,7 @@ export async function getHistory(hash) {
 
 export async function getTransactions() {
   try {
-    let listOutputs = await conn.searchAssets("Save the Oceans");
+    let listOutputs = await conn.searchAssets("Naima-Client");
     console.log(listOutputs);
     return listOutputs;
   } catch (error) {
