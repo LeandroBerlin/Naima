@@ -10,6 +10,9 @@ const App = () => (
   <Router>
     <div>
       <div className="topnav">
+      <div className="topnav-left">
+      <h1 className="naima-h1">Naima PoC</h1>
+      </div>
         <div className="topnav-right">
           <NavLink exact to="/">
             About

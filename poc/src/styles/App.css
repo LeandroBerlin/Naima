@@ -1,27 +1,31 @@
 :root {
-  --main-color: #056180;
-  --secondary-color: #008cba;
+  --main-color: rgba(190, 192, 207, 0.89);
+  --secondary-color: rgba(148, 152, 169, 0.89);
 }
 
 body {
-  background-color: #282c34;
+  background-image: url("./img/chuttersnap-720485-unsplash.jpg");
+  background-size: cover;
 }
 
 .App {
   text-align: center;
+  padding-top: 3em;
+  background-color: #272326a4;
+  height: 100vh;
+  letter-spacing: 0.1em;
 }
 
-.App-logo {
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 10vmin;
-}
+} */
 
 .App-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: top;
-  margin-top: 2em;
   font-size: calc(10px + 2vmin);
   min-height: 70vh;
   color: white;
@@ -33,35 +37,50 @@ body {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #272326a4;
   overflow: hidden;
-  margin-bottom: 0.5em;
+  /* margin-bottom: 0.5em; */
+  padding: 1.5em;
+  display: flex;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 0.3em 1em;
+  /* padding: 0.3em 1em; */
+  padding-left: 1em;
+  padding-right: 1em;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 27px;
+  display: flex;
+  align-items: baseline;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: var(--main-color);
+  border-radius: 3px;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: var(--secondary-color);
   color: white;
+  border-radius: 3px;
 }
 
 /* Right-aligned section inside the top navigation */
 .topnav-right {
-  float: right;
+  margin-left: auto;
+  display: flex;
+  padding: 1.5em;
+}
+
+.naima-h1 {
+  color: white;
+  font-weight: 600;
+  /* font-size: 1.5em; */
 }
 
 @keyframes App-logo-spin {
@@ -81,10 +100,16 @@ input {
   outline: none;
   margin-bottom: 2em;
   padding: 0.3em;
-  background-color: darkgrey;
+  background-color: rgba(230, 231, 237, 0.692);
   color: white;
   border: none;
   border-color: transparent;
+  border-radius: 3px;
+  box-shadow: ;
+  box-shadow: 11px 12px 8px -6px rgba(0, 0, 0, 0.19);
+  padding: 1em;
+  font-style: italic;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 button {
@@ -97,6 +122,7 @@ button {
   font-size: 1em;
   background-color: var(--secondary-color);
   cursor: pointer;
+  border-radius: 5px;
 }
 
 h2,
@@ -108,15 +134,25 @@ h5 {
 }
 
 p {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 a {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--secondary-color);
+}
+
+ul {
+  list-style: none;
+}
+
 .form {
+  display: flex;
+  flex-direction: column;
   max-width: 450px;
   text-align: center;
 }
@@ -127,9 +163,11 @@ button[disabled] {
 }
 
 .projects {
+  
   text-align: left;
   max-width: 50%;
   margin: 0 auto;
+  font-size: 1em;
 }
 
 label {
@@ -140,13 +178,15 @@ label {
   width: auto;
 }
 .tools li {
-  text-align: left;
+  text-align: center;
   font-size: 0.8em;
+  padding: 0.5em;
+  font-size: 1.2em;
 }
 
 .credit {
   bottom: 1em;
-  font-size: 0.8em;
+  font-size: 1.3em;
   color: white;
 }
 

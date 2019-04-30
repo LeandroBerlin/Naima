@@ -30,7 +30,7 @@ class About extends Component {
                 rel="noopener noreferrer"
                 href="https://reacttraining.com/react-router/"
               >
-                React Router 4
+                React Router 5
               </a>
             </li>
             <li>
