@@ -12,7 +12,7 @@ body {
   text-align: center;
   padding-top: 3em;
   background-color: #272326a4;
-  height: 100vh;
+  height: 100%;
   letter-spacing: 0.1em;
 }
 
@@ -188,6 +188,7 @@ label {
   bottom: 1em;
   font-size: 1.3em;
   color: white;
+  padding: 2em;
 }
 
 @media screen and (max-width: 600px) {

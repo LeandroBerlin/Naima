@@ -118,7 +118,7 @@ class View extends Component {
             </div>
           )}
         </main>
-        <Credit />
+          <Credit />
       </div>
     );
   }
