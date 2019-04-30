@@ -101,9 +101,9 @@ class View extends Component {
             )
           ) : (
             <div className="form">
-              <p>Search a transition by hash</p>
+              <p>Search a transition by hash:</p>
               <input
-                placeholder="Insert transaction hash"
+                placeholder="Insert transaction hash..."
                 onChange={this.updateHash}
                 value={this.state.hash}
                 size="64"
