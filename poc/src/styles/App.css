@@ -115,6 +115,7 @@ button {
   font-size: 1em;
   background-color: var(--secondary-color);
   cursor: pointer;
+  border-radius: 5px;
 }
 
 h2,
