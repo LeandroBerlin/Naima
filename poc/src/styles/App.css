@@ -162,7 +162,7 @@ button[disabled] {
   cursor: not-allowed;
 }
 
-.projects {  
+.projects {
   text-align: left;
   /* max-width: 50%; */
   margin: 0 auto;
@@ -196,11 +196,13 @@ label {
   }
 }
 
+
 .transaction {
   border-collapse: collapse;
   font-size: 0.7em;
-  max-width: 90vh;
+  width: 80vh;
   margin-bottom: 0.5em;
+  
 }
 
 .transaction a {
@@ -214,17 +216,17 @@ label {
 }
 
 .transaction tr:nth-child(even) {
-  background-color: #7e7e7e;
+  background-color: rgba(148, 152, 169, 0.60);
 }
 
 .transaction tr:hover {
-  background-color: #5b5b5b;
+  background-color: rgba(102, 99, 107, 0.60);
 }
 
 .transaction th {
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   text-align: left;
-  background-color: var(--main-color);
+  background-color: #2723269d;
   color: white;
 }
