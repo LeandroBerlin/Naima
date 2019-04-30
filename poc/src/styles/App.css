@@ -60,12 +60,14 @@ body {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: var(--main-color);
+  border-radius: 3px;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: var(--secondary-color);
   color: white;
+  border-radius: 3px
 }
 
 /* Right-aligned section inside the top navigation */
