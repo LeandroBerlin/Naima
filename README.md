@@ -1,5 +1,7 @@
 # Naima
-an open, transparent and trustworthy fundraising platform for nonprofits, social enterprises and changemakers based on Blockchain.
+an open, transparent and trustworthy fundraising platform for nonprofits, social enterprises and changemakers based on Blockchain.  
+
+<img src="website/img/logo.svg" width="120px">
 
 This project has been launched during a hackathon at [Digital Career Institute](https://digitalcareerinstitute.org/) in Berlin, Germany
 
