@@ -7,7 +7,6 @@ This project has been launched during a hackathon at [Digital Career Institute](
 
 
 ![Berlin](https://img.shields.io/badge/Built%20in-Berlin-critical.svg?logo=react) ![Repo_size](https://img.shields.io/github/repo-size/LeandroDCI/Naima.svg)
-![DevDeps](https://david-dm.org/leandroDCI/Naima/dev-status.svg)
 [![GPL License](https://img.shields.io/github/license/leandroDCI/Naima.svg)](LICENSE)
 
 
