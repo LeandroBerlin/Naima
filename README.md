@@ -6,6 +6,11 @@ an open, transparent and trustworthy fundraising platform for nonprofits, social
 This project has been launched during a hackathon at [Digital Career Institute](https://digitalcareerinstitute.org/) in Berlin, Germany
 
 
+![Berlin](https://img.shields.io/badge/Built%20in-Berlin-critical.svg?logo=react) ![Repo_size](https://img.shields.io/github/repo-size/LeandroDCI/Naima.svg)
+![DevDeps](https://david-dm.org/leandroDCI/Naima/dev-status.svg)
+[![GPL License](https://img.shields.io/github/license/leandroDCI/Naima.svg)](LICENSE)
+
+
 ## Problem
 Social fundraising relies on **trust** = no trust no investments/money/visibility  
 
@@ -32,7 +37,7 @@ source: https://insights.theberkeleygroup.org/blockchain-for-nonprofits-decentra
 IBM is using blockchain to improve transparency in supply chains for internal stakeholders (Hyperledger project from LinuxFoundation), start-ups such as [Provenance](https://www.provenance.org) and [Everledger](https://www.everledger.io) are using blockchain to provide supply-chain transparency directly to consumers.
 
 ## Resources:
-https://www.forbes.com/sites/ginaclarke/2019/02/14/how-blockchain-crowdfunding-could-soon-kill-off-the-ico/
-https://www.thebalance.com/how-bitcoin-and-blockchain-is-changing-crowdfunding-4173837
-https://medium.com/@thedigitaldunk/how-blockchain-can-radically-change-charities-e233b81ef63
-https://bitcoinmagazine.com/articles/bitcoin-and-blockchain-technology-future-philanthropy/
+https://www.forbes.com/sites/ginaclarke/2019/02/14/how-blockchain-crowdfunding-could-soon-kill-off-the-ico/  
+https://www.thebalance.com/how-bitcoin-and-blockchain-is-changing-crowdfunding-4173837  
+https://medium.com/@thedigitaldunk/how-blockchain-can-radically-change-charities-e233b81ef63  
+https://bitcoinmagazine.com/articles/bitcoin-and-blockchain-technology-future-philanthropy/  
