@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import "../styles/App.css";
+// eslint-disable-next-line
 import { getTransaction, updateTransaction } from "./Bigchaindb";
 import Logo from "./Logo";
 import Credit from "./Credit";
+import "../styles/App.css";
 
 class Update extends Component {
   constructor(props) {
@@ -99,26 +100,26 @@ class Update extends Component {
                 </table>
               </div>
             ) : (
-              "No data available"
-            )
+                "No data available"
+              )
           ) : (
-            <div className="form">
-              <p>Search a transition by hash</p>
-              <input
-                placeholder="Insert transaction hash"
-                onChange={this.updateHash}
-                value={this.state.hash}
-                size="64"
-              />
+              <div className="form">
+                <p>Search a transition by hash</p>
+                <input
+                  placeholder="Insert transaction hash"
+                  onChange={this.updateHash}
+                  value={this.state.hash}
+                  size="64"
+                />
 
-              <button
-                onClick={() => this.getTransaction()}
-                disabled={!this.state.hash}
-              >
-                Get transaction
+                <button
+                  onClick={() => this.getTransaction()}
+                  disabled={!this.state.hash}
+                >
+                  Get transaction
               </button>
-            </div>
-          )}
+              </div>
+            )}
         </main>
         <Credit />
       </div>

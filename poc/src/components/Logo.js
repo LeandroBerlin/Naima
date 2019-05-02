@@ -4,7 +4,7 @@ export default class Logo extends Component {
   render() {
     return (
       <React.Fragment>
-        <img src={logo} className="App-logo" />
+        <img alt="logo" src={logo} className="App-logo" />
       </React.Fragment>
     );
   }

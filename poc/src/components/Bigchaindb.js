@@ -1,4 +1,4 @@
-import * as driver from "bigchaindb-driver";
+import * as driver from 'bigchaindb-driver'
 import * as bip39 from "bip39";
 
 const conn = new driver.Connection(process.env.REACT_APP_BIGCHAINDB_API);
